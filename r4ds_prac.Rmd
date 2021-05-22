@@ -1,0 +1,17 @@
+---
+title: "r4ds_practice"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+brooklyn <- read_excel("/Users/ryanharris/Downloads/rollingsales_brooklyn.xls", skip = 4)
+```
